@@ -52,6 +52,7 @@
 - `history` = List of all commands runned previously
 	* `!number` = Repeat the command once again from history by using the number
 - `bc` = Starts a calculator (Terminate using Ctrl+D)
+- `bash -c "cmd"` = Execute command in child shell
 
 
 
