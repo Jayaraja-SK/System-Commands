@@ -45,6 +45,7 @@
 - `less filename` = Display only the 1st few lines of a file (Click "q" to leave)
 
 
+
 ### OUTPUT OF ls -l
 
 - `drwxr-xr-x 5 steve steve 12288 Dec 20 10:00 Document` = FileType|OwnerPermission|GroupPermission|OtherPermission|NumberOfHardLinks|Owner|Group|Size|LastModifiedTimeStamp|FileName 
