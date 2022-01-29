@@ -53,6 +53,8 @@
 	* `!number` = Repeat the command once again from history by using the number
 - `bc` = Starts a calculator (Terminate using Ctrl+D)
 - `bash -c "cmd"` = Execute command in child shell
+- `(cmd_1 ; cmd_2 ; cmd_3)` = Execute in sub-shell
+- `echo $(BASH_SUBSHELL)` = No. of active sub-shells
 
 
 
