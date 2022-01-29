@@ -3,6 +3,7 @@
 #### Files
 
 - [Week-1](Week1.md)<br>
+- [Week-2](Week2.md)<br>
 
 
 #### Instructor
