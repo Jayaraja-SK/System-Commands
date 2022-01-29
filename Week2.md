@@ -62,6 +62,7 @@
 - `$HOSTNAME` = Name of host
 - `$PWD` = Current working direc.
 - `$PATH` = Displays all path var.
+- `$USER` = Username associated with current session
 - `$0` = Name of shell
 - `$$` = Process I.D. of shell
 - `$?` = Return code of previously run program
