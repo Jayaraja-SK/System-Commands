@@ -8,6 +8,9 @@
 	* `ls -l` = Long format
 	* `ls -i` = Inode no. of files (Entry in filesystem table and unique for different files. If same, then they're hard-link)
 	* `ls -li` = Inode no. and Long format (Also, `ls -l -i` can be used)
+	* `ls -l direc_name` = Long format of direc. along with sub-files
+	* `ls -ld direc_name` = Long format of direc. without sub-files (Also, `ls -l --directory direc_name` or `ls direc_name ld` can be used)
+	* `ls *` = File names present in current direc. and its sub-direc.
 - `ps` = List of proc. running
 - `uname` = Name of O.S.
 - `whoami` = Username
@@ -23,6 +26,7 @@
 	* `cd direc_name` = Go to sub-direc. present in pwd
 - `date` = Date and time
 	* `date -R` = E-Mail communication time
+	* `\date` = Display original command without alias Also, `./date` can be used
 - `cal` = Calendar of current month
 	* `cal month year` = Calendar of given month and year (Eg. month - aug or Aug or 8, year = 2012)
 	* `ncal` = Different orientation
@@ -35,14 +39,19 @@
 	* `chmod o-r filename` = Remove read permission for other users for the file
 	* `chmod 700 filename` = Give all permissions to user and remove all permissions for group and others
 - `touch filename` = Create an empty file if it doesn't exists
+	* `touch file_1 file_2 file_3` = Creates multiple empty files 
 - `cp old_filename new_filename` = Copy contents of one file to a new file
+	* `cp -r old_direc new_direc` = To copy all files from one direc. to another
 - `mv path_of_file new_path` = Move file from one direc. to another
-- `mv old_filename new_filename` = Rename file (Use "" to use more than two words for file name)
+	* `mv old_filename new_filename` = Rename file (Use "" to use more than two words for file name)
 - `rm filename` = Remove file
 	* `rm -i filename` = Ask user to remove file or not (Interactive  mode)
+	* `rm -r direcname` = To remove all files in a directory
 - `mkdir` = Create a directory
 - `rmdir` = Remove an empty directory
 - `less filename` = Display only the 1st few lines of a file (Click "q" to leave)
+- `file filename` = Displays type of given file
+	* `file *` = File type of all files in pwd
 
 
 
