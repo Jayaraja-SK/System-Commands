@@ -43,9 +43,9 @@
 - `ps` = Snapshot of current running processes
 	* `ps --forest` = Shows which parent process has started a child process
 	* `ps -ef` = Processes running in O.S.
-	* `ps -A` = Display info. about other user's proc.
+	* `ps -a` = Display info. about other user's proc. and excludes session loaders
 	* `ps -d` = Similar to `ps -A`, but excludes session loaders
-	* `ps -a` = Display info. about other user's proc. including own
+	* `ps -A` = Display info. about other user's proc. including own
 	* `ps -t` = Display info. about proc. attached to specified terminal devices
 	* `ps -r` = Sort by current C.P.U. usage
 	* `ps -p` = Display info. about proc. which match specified pid
@@ -54,7 +54,7 @@
 - `bc` = Starts a calculator (Terminate using Ctrl+D)
 - `bash -c "cmd"` = Execute command in child shell
 - `(cmd_1 ; cmd_2 ; cmd_3)` = Execute in sub-shell
-- `echo $(BASH_SUBSHELL)` = No. of active sub-shells
+- `(echo $BASH_SUBSHELL)` = No. of active sub-shells
 
 
 

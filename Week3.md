@@ -18,11 +18,11 @@
 - `echo ${#myvar}` = Length of var.
 - `echo ${myvar:x:y}` = Display y characters of string by skipping 1st x characters
 - `echo ${myvar#pattern}` = Remove matching pattern once
-- `echo ${myvar##pattern}` = Remove max. matching pattern once
+- `echo ${myvar##pattern}` = Remove matching pattern max. times
 - `echo ${myvar%pattern}` = Keep matching pattern once
-- `echo ${myvar%%pattern}` = Keep max. matching pattern once
+- `echo ${myvar%%pattern}` = Keep matching pattern max. times
 - `echo ${myvar/pattern/string}` = Replace matching pattern once
-- `echo ${myvar//pattern}` = Replace max. matching pattern once
+- `echo ${myvar//pattern}` = Replace matching pattern max. times
 - `echo ${myvar/#pattern}` = Replace matching pattern at beg.
 - `echo ${myvar/%pattern}` = Replace matching pattern at end
 - `echo ${myvar,}` = Change 1st char. to lower case
@@ -43,6 +43,7 @@
 	* `echo ${!arr[@]}` = Display all indices used
 	* `echo ${arr[@]}` = Display all elements in arr.
 	* `arr+=("value")` = Append an element to end of arr
+	* `unset arr[0]` = Removing
 - `declare -A hash` = Declaring an associative arr.
 	* `hash["a"]="value" = Assigning a value to a key`
 	* `echo ${hash["a"]}` = Value of given key

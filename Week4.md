@@ -36,6 +36,7 @@
 	* `apt-get reinstall package` = Re-install a package
 	* `apt-get autoremove` = Remove packages that were automatically installed to satisfy a dependency
 	* `apt-get clean` = Clean local repo. of retrieved packages
+	* `apt-get remove` = Remove package
 	* `apt-get purge package` = Remove package files from system
 - `/var/lib/dpkg` = Folder - info, File - arch, available and status
 	* `dpkg -l pattern` = List all packages whose name match the pattern
