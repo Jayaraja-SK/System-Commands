@@ -18,7 +18,8 @@
 - `var=$(cmd)` = Command is executed and substituted in the variable (Also, var=`cmd`)
 - `IFS = ' '` = Default input field separator
 - For Loop
-	```	for var in list
+	```	
+		for var in list
 		do
 			commands
 		done
