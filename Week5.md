@@ -3,7 +3,7 @@
 ### COMMANDS
 
 - `./filename` = Command to execute a script file
-- `#!/bin/bash` = Header file for bash-script
+- `#!/bin/bash` = Header for bash-script
 - Display Output
 	* `echo "My name is $var"`
 	* `printf "My name is %s\n" $var`

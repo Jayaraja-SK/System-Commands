@@ -7,6 +7,8 @@
 - [Week-3](Week3.md)<br>
 - [Week-4](Week4.md)<br>
 - [Week-5](Week5.md)<br>
+- [Week-6](Week6.md)<br>
+- [Week-7](Week7.md)<br>
 
 
 #### Instructor
