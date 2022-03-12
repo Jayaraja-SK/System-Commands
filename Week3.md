@@ -22,9 +22,9 @@
 - `echo ${myvar%pattern}` = Keep matching pattern once
 - `echo ${myvar%%pattern}` = Keep matching pattern max. times
 - `echo ${myvar/pattern/string}` = Replace matching pattern once
-- `echo ${myvar//pattern}` = Replace matching pattern max. times
-- `echo ${myvar/#pattern}` = Replace matching pattern at beg.
-- `echo ${myvar/%pattern}` = Replace matching pattern at end
+- `echo ${myvar//pattern/string}` = Replace matching pattern max. times
+- `echo ${myvar/#pattern/string}` = Replace matching pattern at beg.
+- `echo ${myvar/%pattern/string}` = Replace matching pattern at end
 - `echo ${myvar,}` = Change 1st char. to lower case
 - `echo ${myvar,,}` = Change all char's to lower case
 - `echo ${myvar^}` = Change 1st char. to upper case
