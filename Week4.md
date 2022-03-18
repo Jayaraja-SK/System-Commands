@@ -50,7 +50,7 @@
 	* `grep -E pattern filename` = Extended grep
 	* `*` = Zero or more characters
 	* `^` = Beginning of line
-	* `$` = End of file
+	* `$` = End of line
 	* `\` = Esc. special char.
 	* `\b` = Word boundary (Empty Space)
 	* `[]` = Any of char's in range or negation of char's in range
