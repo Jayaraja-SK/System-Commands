@@ -17,10 +17,10 @@
 - `echo ${!H*}` = List of names of shell starting with H
 - `echo ${#myvar}` = Length of var.
 - `echo ${myvar:x:y}` = Display y characters of string by skipping 1st x characters
-- `echo ${myvar#pattern}` = Remove matching pattern once
-- `echo ${myvar##pattern}` = Remove matching pattern max. times
-- `echo ${myvar%pattern}` = Keep matching pattern once
-- `echo ${myvar%%pattern}` = Keep matching pattern max. times
+- `echo ${myvar#pattern}` = Remove matching prefix pattern once
+- `echo ${myvar##pattern}` = Remove matching prefix pattern max. times
+- `echo ${myvar%pattern}` = Remove matching suffix pattern once
+- `echo ${myvar%%pattern}` = Remove matching suffix pattern max. times
 - `echo ${myvar/pattern/string}` = Replace matching pattern once
 - `echo ${myvar//pattern/string}` = Replace matching pattern max. times
 - `echo ${myvar/#pattern/string}` = Replace matching pattern at beg.
