@@ -12,6 +12,8 @@
 	* `tail -n x file_name` = Displays last x no. of lines
 - `wc file_name` = No. of lines, word and byte count of file
 	* `wc -l file_name` = No. of lines in file
+	* `wc -w file_name` = Count of words in file
+	* `wc -c file_name` = Count of bytes 
 - `which cmd_name` = Location of command
 - `whatis cmd_name` = Brief description of command
 - `apropos keyword` = List of cmd_names and their brief descriptions which has the matching keyword given in the command. Equivalent to `man -k`
